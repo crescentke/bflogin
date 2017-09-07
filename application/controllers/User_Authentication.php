@@ -92,7 +92,7 @@ class User_authentication extends CI_Controller
         }
 
 		$data['userData'] = $userData;
-		$this->load->view('user_authentication/index',$data);
+		$this->load->view('welcome_message',$data);
     }
 
 	public function logout() {
