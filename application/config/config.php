@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://139.162.133.122';
+$config['base_url'] = 'http://139.162.133.122/bflogin';
 
 /*
 |--------------------------------------------------------------------------
