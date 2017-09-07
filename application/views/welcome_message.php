@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h1>Welcome to Login!</h1>
 
 		<div id="body">
-			<a href="">Facebook</a>
+			<a href="'.$authUrl.'">Facebook</a>
 		</div>
 
 	</div>
