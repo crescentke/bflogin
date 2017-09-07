@@ -50,7 +50,7 @@ Class Facebook
             $this->fb = new FB([
                 'app_id'                => $this->config->item('UOvghD62lX5b8DMXQdMzpRAAI'),
                 'app_secret'            => $this->config->item('FKVXNDvfYjmqs0KJ657iiONd3nUPBFULRXXxjJeG8EqW83Rtbv'),
-                'default_graph_version' => $this->config->item('2.10')
+                'default_graph_version' => $this->config->item('v2.6')
             ]);
         }
         // Load correct helper depending on login type
