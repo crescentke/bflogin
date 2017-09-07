@@ -49,7 +49,7 @@ class User_Authentication extends CI_Controller
         }
 
         // Load login & profile view
-        $this->load->view('welcome_message',$data);
+        $this->load->view('welcome_message', $data);
     }
 
     public function logout() {
